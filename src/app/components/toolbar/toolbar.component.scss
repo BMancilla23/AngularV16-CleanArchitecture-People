@@ -1,0 +1,36 @@
+.custom-toolbar {
+  background-color: #424242; /* Cambia el color de fondo del toolbar */
+  color: white; /* Cambia el color del texto */
+  height: 64px; /* Ajusta la altura del toolbar según tu preferencia */
+  padding: 0 2rem;
+}
+
+.menu-button {
+  display: none; /* Oculta el botón en dispositivos de escritorio */
+}
+
+
+.menu-button,
+.favorite-button {
+  color: white; /* Cambia el color de los iconos */
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+
+.toolbar-title {
+  margin-left: 16px; /* Ajusta el espacio entre el icono del menú y el título */
+}
+
+.spacer {
+  flex: 1 1 auto; /* Mantiene el espacio entre los elementos del toolbar */
+}
+
+/* Estilos para dispositivos de tablet y mobile */
+@media only screen and (max-width: 768px) {
+  .menu-button {
+    display: block; /* Muestra el botón en dispositivos móviles y tabletas */
+  }
+
+}
